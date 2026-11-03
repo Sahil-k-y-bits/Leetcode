@@ -3,7 +3,7 @@
 ## Approach: Sorting + Two Pointers
 
 1. Sort the input array.
-2. Fix each index `i) as the first element of a triplet.
+2. Fix each index `i` as the first element of a triplet.
 3. Use two pointers (`left` and `right`) to find pairs whose sum is `-nums[i]`.
 4. Move the left pointer when the sum is too small and the right pointer when it is too large.
 5. Skip duplicate values for the fixed index and both pointers so each triplet appears only once.
