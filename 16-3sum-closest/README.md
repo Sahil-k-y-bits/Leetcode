@@ -5,7 +5,7 @@
 ## Approach: Sorting + Two Pointers
 
 1. Sort the input array.
-2. Fix each index `i) in turn and search the remaining suffix with `left` and `right` pointers.
+2. Fix each index `i` in turn and search the remaining suffix with `left` and `right` pointers.
 3. Update the best sum whenever the current three-number sum is closer to the target.
 4. Move `left` forward when the sum is too small, or `right` backward when it is too large. Return immediately if the target is reached exactly.
 
