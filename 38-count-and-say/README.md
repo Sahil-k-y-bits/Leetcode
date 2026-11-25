@@ -8,10 +8,10 @@ Start with the first term, `"1"`. For each following term, scan the previous str
 
 ## Complexity
 
-Let \(L_i\) be the length of the (i\)-th generated term.
+Let `L_i` denote the length of term `i`.
 
-- **Time:** \(O(\sum_{i=1}^{n-1} L_i)\), because each term is scanned once to construct the next.
-- **Auxiliary space:** \(O(L_n)\) for the newly generated term (excluding the returned string).
+- **Time:** `O(L_1 + L_2 + ... + L_(n-1))`, because each term is scanned once to construct the next.
+- **Auxiliary space:** `O(L_n)` for the newly generated term (excluding the returned string).
 
 ## Example
 
